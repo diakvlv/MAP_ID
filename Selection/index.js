@@ -1,9 +1,3 @@
-document.querySelector('.menu-btn').addEventListener('click', function () {
-    document.querySelector('.nav-links').classList.toggle('show');
-  });
-
-
-  // podivej se jeste jednou je to hrozne //
 const levels = document.querySelectorAll('.level');
 const courseTitle = document.getElementById('course-title');
 const courseDetails = document.getElementById('course-details');

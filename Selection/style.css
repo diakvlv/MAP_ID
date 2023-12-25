@@ -86,7 +86,7 @@
       text-decoration: none;
     }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1341px) {
     .nav-links {
       display: none;
       flex-direction: column;
@@ -111,7 +111,7 @@
     }
   }
   
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1341px) {
     .menu-btn {
       display: none;
     }
@@ -208,7 +208,7 @@
       color: black;
     }
 
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 1341px) {
       h3 {
         font-size: 40px;
       }
@@ -262,7 +262,7 @@
           color: #fff;
       }
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1341px) {
         .bar {
             width: 100%;
         }
@@ -290,7 +290,7 @@
           padding: 10px 10px 60px 0px;
       }
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1000px) {
         .bottomsection {
             font-size: 28px;
         }

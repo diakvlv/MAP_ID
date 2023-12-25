@@ -86,7 +86,7 @@
       text-decoration: none;
     }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1341px) {
     .nav-links {
       display: none;
       flex-direction: column;
@@ -111,7 +111,7 @@
     }
   }
   
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1341px) {
     .menu-btn {
       display: none;
     }
@@ -135,7 +135,7 @@
       padding: 50px 0px 0px 0px;
     }
 
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 1341px) {
       h3 {
         font-size: 40px;
         margin-left: -15px;
@@ -199,7 +199,7 @@
         text-decoration: none;
       }
 
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: 1341px) {
         .bar {
             width: 100%;
         }

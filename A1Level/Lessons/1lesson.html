@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Čeština pro cizince | Select your course!</title>
 </head>
 <body>
@@ -41,13 +42,46 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/NWlFKrzvsm0?si=GzKX3dQFypm9vOc0&amp;start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    
    
-        <h>Czech alphabet consists of 42 letters.</h>
-        <h>Make sure that all letters are read as written in the text. There are no changes in pronunciation.</h>
+        <h5>Czech alphabet consists of 42 letters.</h5>
+        <h5>Make sure that all letters are read as written in the text. There are no changes in pronunciation.</h5>
 
-        <h>"A" - ano (yes)</h>
-        <h>"Á" - [АА], mám (I have)</h>
-        <h>"B" - banka (bank)</h>
-        <h>.............</h>
+        <h5>"A" - ano (yes)</h5>
+        <h5>"Á" - [АА], mám (I have)</h5>
+        <h5>"B" - banka (bank)</h5>
+        <h5>.............</h5>
+
+
+
+        <img id="myImg" src="files/byt.jpeg" alt="Časování slovesa 'BÝT'" style="width:100%;max-width:300px">
+
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
+        <hr>
+
+        <h2>Download PDF file - Grammar genders</h2>
+        <div class="bar">
+            <a href="files/Rody v češkém jazyce.pdf" download>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="75" viewBox="0 0 60 75" fill="none">
+                    <path d="M17.9347 18.0836V1.00562L0.836914 20.6477H15.7027C17.3092 20.6477 17.9347 19.929 17.9347 18.0836Z" fill="#2A2E53"/>
+                    <path d="M36.4569 67.4372C36.0706 67.9488 36.0812 70.6869 36.1191 74.9999H41.8899C40.5974 72.3813 39.0491 70.0176 37.9448 68.4131C37.9448 68.4131 36.9899 66.7445 36.4569 67.4372Z" fill="#2A2E53"/>
+                    <path d="M47.3663 15.6955C44.8725 21.0152 43.478 26.0724 43.6107 26.7991C43.7399 27.5217 44.1522 27.9927 45.3215 27.1474C45.8191 26.7894 47.7608 25.5619 49.9999 23.703V11.1023C49.0189 12.5436 48.102 14.1303 47.3663 15.6955Z" fill="#2A2E53"/>
+                    <path d="M18.1012 42.3161C19.0324 42.0943 28.7363 36.2233 36.1218 31.7948C40.1818 17.0127 45.1883 7.55976 49.997 3.27963C49.9769 1.46836 48.6892 0 47.1063 0H21.2405V20.3688C21.2405 22.6157 19.6484 24.446 17.6935 24.446H0V33.4715C5.35244 34.3916 11.9288 38.5586 17.6581 42.3161C17.8394 42.3366 17.9922 42.3421 18.1012 42.3161Z" fill="#2A2E53"/>
+                    <path d="M13.5364 44.3576C13.5364 44.3576 4.96989 40.0747 0 40.1374V49.2976C0.399259 49.2691 0.794947 49.2446 1.23807 49.1724C5.09893 48.5463 14.7389 44.6393 13.5364 44.3576Z" fill="#2A2E53"/>
+                    <path d="M31.7082 55.7158C31.7082 55.7158 33.7435 41.4397 34.8856 37.7599C31.9973 39.9564 21.1597 45.566 21.1597 45.566C21.1597 45.566 30.4003 53.9452 31.7082 55.7158Z" fill="#2A2E53"/>
+                    <path d="M36.999 61.2994C40.3967 66.0722 43.5067 71.113 45.4176 74.9998H47.1058C48.7016 74.9998 50 73.5082 50 71.6751V28.2823C47.8261 29.9808 45.1747 31.8724 42.1691 33.7559C39.8116 42.5407 37.9693 54.3453 36.999 61.2994Z" fill="#2A2E53"/>
+                    <path d="M18.0442 47.2429C11.1942 50.4981 4.15938 52.6743 1.16092 53.1751C0.756947 53.2431 0.382554 53.2813 0 53.3302V71.6753C0 73.5084 1.29966 75.0001 2.89415 75.0001H30.3332C30.3285 70.9391 30.6117 66.1744 31.2478 60.6043C27.6995 56.2508 23.0366 51.0575 18.0442 47.2429Z" fill="#2A2E53"/>
+                  </svg> 
+            </a>
+            <a href="files/Rody v češkém jazyce.pdf" download>
+            <div class="bar-text">
+                <p>Rody v českém jazyce</p>
+            </div>
+            </a>
+        </div>
 
         <hr>
 
@@ -61,53 +95,54 @@
     <div class="letters-box">
         <div class="left-box">
             <h2>Ě</h2>
-            <h>běží, tobě, obědvá...</h>
+            <h5>běží, tobě, obědvá...</h5>
             
             <h2>Ř</h2>
-            <h>třída, vpředu, dveře...</h>
+            <h5>třída, vpředu, dveře...</h5>
         </div>
         <div class="right-box">
             <h2>H - Ch</h2>
-            <h>aha, ahoj, chirurg...</h>
+            <h5>aha, ahoj, chirurg...</h5>
             
             <h2>Ř</h2>
-            <h>třicet, vepřové, například...</h>
+            <h5>třicet, vepřové, například...</h5>
         </div>
     </div>
 
         <h4>2. Fill in the gaps with correct letters. Automatic control.</h4>
 
         <form action="/action_page.php">
-            <h>1.&nbsp;</h>
+            <h6>1.&nbsp;</h>
             <input type="text" id="1" name="1">
             <label for="1">žena je ve třídě.</label><br>
 
-            <h>2.</h>
+            <h6>2.</h>
             <input type="text" id="2" name="2">
             <label for="2">profesor je tady.</label><br>
 
-            <h>3.</h>
+            <h6>3.</h>
             <input type="text" id="3" name="3">
             <label for="3">okno je vzadu.</label><br>
 
-            <h>4.</h>
+            <h6>4.</h>
             <input type="text" id="4" name="4">
             <label for="4">pero je tady.</label><br>
 
-            <h>5.</h>
+            <h6>5.</h>
             <label for="5">Doma je</label>
             <input type="text" id="5" name="5">
             <label for="5">muž</label><br>
 
-            <h>6.</h>
+            <h6>6.</h>
             <input type="text" id="6" name="6">
             <label for="6">učitelka se jmenuje Ema.</label><br>
 
-            <h>7.</h>
+            <h6>7.</h>
             <label for="7">Tady je</label>
             <input type="text" id="7" name="7">
-            <label for="7">sklenice.</label><br><br>
+            <label for="7">sklenice.</label><br><br></h6>
             <p class="cta3">Kontrola</p><br>
+     
         </form>
 
 
@@ -130,12 +165,8 @@
 
     
 
-    
-    <script>
-        document.querySelector('.menu-btn').addEventListener('click', function () {
-    document.querySelector('.nav-links').classList.toggle('show');
-  });
-    </script>
+    <script src="script.js"></script>
+    <script src="../../nav.js"></script>
 
 
 </body>
